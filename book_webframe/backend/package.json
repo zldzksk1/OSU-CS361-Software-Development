@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "bcrypt": "^5.0.0",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.11",
+    "mongoose-float": "^1.0.4",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js",
+    "client": "cd ../client && npm start",
+    "dev": "concurrently \"nodemon server.js\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,166 @@
+.flex-column {
+  margin-top: 20px;
+}
+
+#reject-button {
+  margin-left: 8px;
+}
+
+#cancel-button {
+  margin-left: 8px;
+}
+
+Table {
+  margin-top: 15px;
+}
+
+Table th {
+  border: 1px solid #ddd;
+  text-align: center;
+  color: black;
+}
+
+Table td {
+  border: 1px solid #ddd;
+  text-align: center;
+  color: black;
+}
+
+.preceived_table,
+.areceived_table,
+.psent_table,
+.asent_table {
+  border-bottom: 1px solid #ddd;
+}
+
+#id #id-text,
+#date #date-text,
+#requesting-user #requesting-user-text,
+#posting-user #posting-user-text,
+#book #book-text,
+#action #action-text,
+#details #details-text {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 6px;
+  padding: 5px;
+  position: absolute;
+}
+
+#id #id-text::after,
+#date #date-text::after,
+#requesting-user #requesting-user-text::after,
+#posting-user #posting-user-text::after,
+#book #book-text::after,
+#action #action-text::after,
+#details #details-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+#id:hover #id-text,
+#date:hover #date-text,
+#requesting-user:hover #requesting-user-text,
+#posting-user:hover #posting-user-text,
+#book:hover #book-text,
+#action:hover #action-text,
+#details:hover #details-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+ {
+  /*Hover feature for ID*/
+}
+#id #id-text {
+  width: 100px;
+  margin-left: -60px;
+  margin-top: -45px;
+}
+
+ {
+  /*Hover feature for date*/
+}
+#date #date-text {
+  width: 100px;
+  margin-left: -70px;
+  margin-top: -60px;
+}
+
+ {
+  /*Hover feature for name*/
+}
+.pr-requests #requesting-user-text {
+  width: 110px;
+  margin-left: -130px;
+  margin-top: -45px;
+}
+
+.ps-requests #posting-user-text {
+  width: 120px;
+  margin-left: -120px;
+  margin-top: -60px;
+}
+
+ {
+  /*Hover feature for book*/
+}
+#book #book-text {
+  width: 100px;
+  margin-left: -75px;
+  margin-top: -45px;
+}
+
+ {
+  /*Hover feature for action: PENDING*/
+}
+.pr-requests #action-text {
+  width: 130px;
+  margin-left: -95px;
+  margin-top: -75px;
+}
+
+.ps-requests #action-text {
+  width: 130px;
+  margin-left: -95px;
+  margin-top: -45px;
+}
+
+ {
+  /*Hover feature for action: ACCEPTED*/
+}
+.ar-requests #action-text {
+  width: 180px;
+  margin-left: -120px;
+  margin-top: -75px;
+}
+
+.as-requests #action-text {
+  width: 130px;
+  margin-left: -95px;
+  margin-top: -60px;
+}
+
+ {
+  /*Hover feature for details*/
+}
+.ar-requests #details-text {
+  width: 150px;
+  margin-left: -110px;
+  margin-top: -75px;
+}
+
+.as-requests #details-text {
+  width: 150px;
+  margin-left: -110px;
+  margin-top: -75px;
+}
