@@ -1,7 +1,7 @@
 # CS361_
 This is Fall 2020 CS361 Class Repository
 Book Swap is a course project web application which allows users trade their books with other users with MERN tech-stack while understanding the concept of CI/CD.
-Created by Double A Team.
+Created by Double A Team include myself.
 
 
 ### Releases
